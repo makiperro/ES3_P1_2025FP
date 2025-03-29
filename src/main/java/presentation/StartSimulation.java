@@ -3,7 +3,7 @@ package presentation;
 import domain.order.Order;
 import domain.order.Product;
 
-import domain.payment.Payment;
+import domain.payment.PaymentTemplate;
 
 import domain.store.Store;
 
@@ -36,7 +36,7 @@ public class StartSimulation {
 
 
         //TODO: Complete to create Payment
-        Payment pay = null;
+        PaymentTemplate pay = null;
 
         o.confirmOrderAndPay(pay);
         System.out.println("Completed order info:");
