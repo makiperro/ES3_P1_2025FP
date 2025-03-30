@@ -1,4 +1,5 @@
 package domain.product;
 
-public interface DiscountStrategy  {
+public interface DiscountStrategy {
+    double applyDiscount(double price);
 }

@@ -1,10 +1,11 @@
 package presentation;
 
 import domain.order.Order;
-import domain.order.Product;
+
 
 import domain.payment.PaymentTemplate;
 
+import domain.product.Product;
 import domain.store.Store;
 
 import java.util.LinkedList;
