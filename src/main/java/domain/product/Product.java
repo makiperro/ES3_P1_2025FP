@@ -41,5 +41,11 @@ public class Product {
     public void setDiscountStrategy(DiscountStrategy discountStrategy) {
         this.discountStrategy = discountStrategy;
     }
+
+
+
+    public DiscountStrategy getDiscountStrategy (){
+        return this.discountStrategy;
+    }
 }
 

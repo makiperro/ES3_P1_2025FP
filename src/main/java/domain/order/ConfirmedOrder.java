@@ -10,9 +10,11 @@ public class ConfirmedOrder implements OrderState {
     private final double totalOrder;
     private final LocalDateTime confirmationDate;
     private final PaymentTemplate payment;
+    private final Order order;
 
     public ConfirmedOrder(Order order, PaymentTemplate payment) {
         this.totalOrder = order.calculateTotalProducts();
+        this.order = order;
         this.confirmationDate = LocalDateTime.now();
         this.payment = payment;
         this.payment.processPayment(); // Plantilla
