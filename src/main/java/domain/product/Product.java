@@ -42,8 +42,6 @@ public class Product {
         this.discountStrategy = discountStrategy;
     }
 
-
-
     public DiscountStrategy getDiscountStrategy (){
         return this.discountStrategy;
     }

@@ -1,20 +1,18 @@
 package presentation;
 
+
 import domain.order.Order;
-
-
 import domain.payment.PaymentFactory;
 import domain.payment.PaymentMethod;
 import domain.payment.PaymentTemplate;
-
 import domain.product.FixedDiscount;
 import domain.product.NoDiscount;
 import domain.product.PercentageDiscount;
 import domain.product.Product;
 import domain.store.Store;
-
 import java.util.LinkedList;
 import java.util.List;
+
 
 public class StartSimulation {
 
